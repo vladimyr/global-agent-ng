@@ -1,0 +1,52 @@
+{
+  "name": "global-agent-ng",
+  "version": "0.0.0",
+  "description": "Opinionated wrapper around `global-agent`",
+  "keywords": [
+    "http",
+    "https",
+    "proxy",
+    "global",
+    "tunnel",
+    "agent"
+  ],
+  "homepage": "https://github.com/vladimyr/global-agent-ng",
+  "bugs": {
+    "url": "https://github.com/vladimyr/global-agent-ng/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vladimyr/global-agent-ng.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Dario Vladovic",
+    "email": "d.vladimyr+dev@gmail.com",
+    "url": "https://github.com/vladimyr"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "config.js"
+  ],
+  "scripts": {
+    "docs": "documentation readme ./index.js --section=API",
+    "lint": "eslint .",
+    "release": "npx np"
+  },
+  "dependencies": {
+    "global-agent": "^2.1.12"
+  },
+  "devDependencies": {
+    "@types/global-agent": "^2.1.0",
+    "@vladimyr/eslint-config": "*",
+    "documentation": "^13.0.2",
+    "eslint": "^7.9.0",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
